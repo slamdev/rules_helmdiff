@@ -1,0 +1,12 @@
+load("//helmdiff:defs.bzl", "helmdiff_upgrade")
+
+helmdiff_upgrade(
+    name = "example",
+    allow_unreleased = True,
+    chart = ":nginx-0.0.20.tgz",
+    context = 4,
+    namespace = "example",
+    release_name = "nginx",
+    reset_values = True,
+    values = [":values.yaml"],
+)
