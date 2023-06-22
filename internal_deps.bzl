@@ -76,6 +76,6 @@ def rules_helmdiff_internal_deps():
     maybe(
         http_archive,
         name = "slamdev_rules_helm",
-        sha256 = "28617abfaf5db78e0a57db1713b9fcf472e0845f4b06df29d25b911ce51b03f6",
-        url = "https://github.com/slamdev/rules_helm/releases/download/0.0.6/slamdev_rules_helm-v0.0.6.tar.gz",
+        sha256 = "9bb2e2a7672663039acfd6d9b5278ac89c064dfedfb6459dd53333e8c60e094c",
+        url = "https://github.com/slamdev/rules_helm/releases/download/0.0.7/slamdev_rules_helm-v0.0.7.tar.gz",
     )
